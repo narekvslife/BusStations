@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Seventh Avenue"
+  },
+  {
+    "Id": 2,
+    "Name": "Fifth Avenue"
+  },
+  {
+    "Id": 3,
+    "Name": "Times Square"
+  },
+  {
+    "Id": 4,
+    "Name": "The Brooklyn Bridge"
+  },
+  {
+    "Id": 5,
+    "Name": "Wall Street"
+  },
+  {
+    "Id": 6,
+    "Name": "Gucci Store"
+  },
+  {
+    "Id": 7,
+    "Name": "Broadway"
+  }
+]

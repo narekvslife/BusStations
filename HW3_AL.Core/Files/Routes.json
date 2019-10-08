@@ -1,0 +1,38 @@
+﻿[
+  {
+    "Number": "121",
+    "Stations": [
+      { "Name": "Fifth Avenue" },
+      { "Name": "Seventh Avenue" },
+      { "Name": "Broadway" }
+    ],
+    "Interval": 20,
+    "FirstDtime": 300,
+    "LastDTime": 180,
+    "TimeToNextStop": "[ 3, 5, 4 ]"
+  },
+  {
+    "Number": "232",
+    "Stations": [
+      { "Name": "Seventh Avenue"},
+      { "Name": "Times Square"},
+      { "Name": "The Brooklyn Bridge"}
+    ],
+    "Interval": 20,
+    "FirstDtime": 300,
+    "LastDTime": 1260,
+    "TimeToNextStop": "[ 1, 6, 3 ]"
+  },
+  {
+    "Number": "343",
+    "Stations": [
+      { "Name": "Gucci Store" },
+      { "Name": "Times Square" },
+      { "Name": "Wall Street" }
+    ],
+    "Interval": 10,
+    "FirstDtime": 420,
+    "LastDTime": 1380,
+    "TimeToNextStop": "[ 2, 4, 7 ]"
+  }
+]

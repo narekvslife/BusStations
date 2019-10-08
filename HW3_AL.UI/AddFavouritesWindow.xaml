@@ -1,0 +1,31 @@
+﻿<Window x:Class="HW3_AL.UI.AddFavouritesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW3_AL.UI"
+        mc:Ignorable="d"
+        Title="AddFavouritesWindow" Height="350" Width="435" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="Images/NewYork8Bit.jpg" Grid.RowSpan="6" Grid.ColumnSpan="3"/>
+        <StackPanel Grid.Row="0">
+            <TextBlock FontSize="16" Foreground="White" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                Choose from all stations
+            </TextBlock>
+            <ListBox Margin="10" Grid.Row="1" Grid.Column="0" Name="listBoxAllStations" DisplayMemberPath="Name"  VerticalAlignment="Top" 
+                     Height="auto" Foreground="White" Background="{x:Null}" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Margin="10" Width="100" BorderBrush="White" Foreground="White"
+                    Content="Cancel" Background="#FF870012" Click="CancelClick" />
+            <Button Margin="10" Width="100" BorderBrush="White" Foreground="White" 
+                    Content="Add to favourites" Background="#FF15279B" Click="ConfirmClick" />
+        </StackPanel>
+    </Grid>
+</Window>
